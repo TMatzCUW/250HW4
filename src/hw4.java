@@ -38,5 +38,6 @@ public class hw4
 			decimal = decimal / 16;
 		}
 		return answer;
+		System.out.println("Hex:" + answer);
 	}
 }
