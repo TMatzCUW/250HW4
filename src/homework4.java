@@ -1,11 +1,14 @@
 
 public class homework4 {
+	
 	String binary = "101110101101";
 	String decimal= "";
 	String hex="";
 	int bin=Integer.parseInt(binary);
+	
 	//binary to decimal
 	public static int BinarytoDecimal(int bin)
+	
 	{
 		int decimal = 0;  
 	    int n = 0;  
@@ -33,7 +36,8 @@ public class homework4 {
 			decimal = decimal / 16;
 		}
 		return answer;
+		
+		
 	}
-	System.out.println(binary);
 	System.out.println("Hex:" + answer);
 }

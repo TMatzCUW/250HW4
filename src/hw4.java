@@ -1,14 +1,17 @@
 
 public class hw4 
 {
+	public static void main(String[] args) {
 	String binary = "101110101101";
-	String decimal= "";
+	
 	String hex="";
-	int bin=Integer.parseInt(binary);
+	
+	}
 	//binary to decimal
 	public static int BinarytoDecimal(int bin)
 	{
-		int decimal = 0;  
+		String decimal= "";
+		int deci = 0;  
 	    int n = 0;  
 	    while(true){  
 	      if(bin == 0){  
@@ -20,7 +23,8 @@ public class hw4
 	          n++;  
 	       }  
 	    }
-	    return decimal;
+	    return deci;
+	    
 	}
 	//decimal to hexadecimal
 	public static String decimalToHex(int decimal)
