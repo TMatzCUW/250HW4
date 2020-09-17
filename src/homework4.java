@@ -1,6 +1,5 @@
 
-public class hw4 
-{
+public class homework4 {
 	String binary = "101110101101";
 	String decimal= "";
 	String hex="";
@@ -35,4 +34,6 @@ public class hw4
 		}
 		return answer;
 	}
+	System.out.println(binary);
+	System.out.println("Hex:" + answer);
 }
